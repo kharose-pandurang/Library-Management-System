@@ -1,0 +1,42 @@
+ <div className="Table">
+          <div className="Row">
+            <input className="Input" type="text" value="" />
+            <input className="Input" type="text" value="" />
+            <input className="Input" type="text" value="" />
+            <input className="Input" type="text" value="" />
+            <button typeNclassName="button" className="btn btn-primary">
+              Update
+            </button>
+            <button typeNclassName="button" className="btn btn-danger">
+              Delete
+            </button>
+          </div>
+          {books.map((book) => {
+            console.log(book);
+
+            <div className="Row" key={book.bname}>
+              <input className="Input" type="text" value={v} onChange={(event)=>{
+                event.preventDefault();
+                setV(event.target.value);
+              }} />
+              <input className="Input" type="text" value={v} onChange={(event)=>{
+                event.preventDefault();
+                setV(event.target.value);
+              }} />
+              <input className="Input" type="text" value={v} onChange={(event)=>{
+                event.preventDefault();
+                setV(event.target.value);
+              }} />
+              <input className="Input" type="text" value={v} onChange={(event)=>{
+                event.preventDefault();
+                setV(event.target.value);
+              }} />
+              <button typeNclassName="button" className="btn btn-primary">
+                Update
+              </button>
+              <button typeNclassName="button" className="btn btn-danger">
+                Delete
+              </button>
+            </div>;
+          })}
+        </div>

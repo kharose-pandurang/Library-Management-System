@@ -1,0 +1,154 @@
+body {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+	border-radius: 20px;
+	box-shadow: 0px 11px 17px 1px rgb(238, 110, 115);
+	height: 100px;
+	width: 600px;
+}
+
+.card1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 100px;
+	height: auto;
+	width: 200px;
+}
+
+.button1 {
+	background-color: #ee6e73;
+	margin: 2px;
+	width: 100%;
+}
+
+.button2 {
+	background-color: #ee6e73;
+	margin: 2px;
+	width: 100px;
+}
+
+.lcard {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 70px;
+	height: 300px;
+	width: 600px;
+}
+
+.dcard {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 80px;
+	height: auto;
+	width: 100%;
+}
+
+.titel {
+	color: #ee6e73;
+}
+
+.table1 {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	height: 400px;
+	overflow: scroll;
+}
+.tablef {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top:40px;
+	width: 600px;
+	height: 500px;
+	overflow: scroll;
+}
+
+.t1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+	height: 400px;
+	margin-left: 200px;
+}
+
+.t2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	margin: 10px;
+	height: 430px;
+	width: 50%;
+	overflow: scroll;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 40px;
+	width: 100%;
+	height: 500px;
+	background-color: #ee6e73;
+}
+
+.container2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+	width: 100%;
+	height: 500px;
+	background-color: #ee6e73;
+}
+
+.container3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+	width: 600px;
+	height: 400px;
+	overflow: scroll;
+}
+
+.issuedbooks {
+	display: contents;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 3px;
+	width: 50%;
+	height: 500px;
+	background-color: aliceblue;
+}
+
+.returnbooks {
+	display: contents;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 3px;
+	width: 50%;
+	height: 100%;
+}

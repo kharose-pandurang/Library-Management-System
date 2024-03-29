@@ -1,0 +1,68 @@
+.Body{
+    height: auto;
+    width: 800px;
+}
+.Body-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mybtn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    background:#6c757d;
+}
+img{
+    width: 950px;
+    height: auto;
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 300px;
+    width: 338px;
+    border: 1px solid rgb(148, 148, 148);
+    box-shadow: 2px 9px 27px -5px;
+    border-radius: 4px;
+}
+.Body-Row{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+.sidebox{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+}
+.table{
+    height: 400px;
+    overflow: scroll;
+}
+.table1{
+    height: 400px;
+    width: 900px;
+    overflow: scroll;
+}
+.sidebox1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.nav-link:hover{
+    cursor: pointer;
+}
+.H:hover{
+    cursor: pointer;
+}
